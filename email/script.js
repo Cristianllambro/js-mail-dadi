@@ -13,7 +13,7 @@ btnCheck.addEventListener('click', function () {
 
     for ( let i = 0; i < arrEmail.length; i++) {
         if (arrEmail[i] == inputEmailUser) {
-            register = true  
+            register = true
         }
     }
 
