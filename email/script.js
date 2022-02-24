@@ -6,8 +6,8 @@ console.log(arrEmail);
 
 console.log(inputEmailUser)
 
-for ( let inputUserName = 0; inputUserName <= arrEmail.length -1; 1++) {
-    if (arrEmail[inputEmailUser] = 1)
+for ( let inputUserName = 0; inputUserName <= arrEmail.length -1; inputEmailUser++) {
+    if (arrEmail[inputEmailUser] = inputEmailUser)
         console.log(arrEmail[inputEmailUser])
     
     break
