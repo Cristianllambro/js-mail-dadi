@@ -2,8 +2,14 @@ let btnCheck = document.querySelector('#btn-check')
 let btnClear = document.querySelector('#clear')
 let output = document.querySelector('#output')
 
-let arrEmail = ['email@gmail.com', 'email1@gmail.com', 'email2@gmail.com', 
-'email3@gmail.com', 'email4@gmail.com', 'email5@gmail.com'];
+let arrEmail = [
+    'email@gmail.com', 
+    'email1@gmail.com', 
+    'email2@gmail.com', 
+    'email3@gmail.com', 
+    'email4@gmail.com', 
+    'email5@gmail.com'
+];
 
 let register = false
 
@@ -23,4 +29,9 @@ btnCheck.addEventListener('click', function () {
         output.innerHTML = 'La tua E-mail non è registrata'
     }
 
+})
+
+btnClear.addEventListener('click', function () {
+    let inputEmailUser = document.querySelector('#email-user').value = '';
+    output.innerHTML = '';
 })
