@@ -10,7 +10,7 @@ userNumber.innerHTML = 'Hai tirato: ' + userNumberCasual;
 computerNumber.innerHTML = 'Il computer ha tirato: ' + computerNumberCasual;
 
 
-if (userNumberCasual > computerNumberCasual ) {
+if (userNumberCasual > computerNumberCasual) {
     drawAll.innerHTML = 'Hai vinto';
 } else if (computerNumberCasual > userNumberCasual) {
     drawAll.innerHTML = 'Il computer ha vinto';
